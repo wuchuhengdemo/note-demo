@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  springBootConstructionGraphql:
+    image: wuchuheng/note-demo:nestjs-01
+    ports:
+    - 3000:3000
+    container_name: springBootConstructionGraphql
